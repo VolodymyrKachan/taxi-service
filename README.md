@@ -31,7 +31,7 @@ ___
 - :walking:**Step 2** - _Open IntelliJ IDEA and write `git clone <SSH link>` in your console._
 - :walking:**Step 3** - _Configure ConnectionUtil class, using your data._
 ```java
-private static final String URL = "URL;
+private static final String URL = "URL";
 private static final String USERNAME = "USERNAME";
 private static final String PASSWORD = "PASSWORD";
 private static final String JDBC_DRIVER = "JDBC_DRIVER";
