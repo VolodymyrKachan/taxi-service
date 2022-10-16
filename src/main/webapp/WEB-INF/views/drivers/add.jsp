@@ -32,7 +32,7 @@
             <input type="password" name="password" form="driver" required>
         </td>
         <td>
-            <input type="submit" name="add" form="driver">
+           <input type="submit" name="add" form="driver" value="Send">
         </td>
     </tr>
     <table class="section__subtitle">

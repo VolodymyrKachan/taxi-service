@@ -24,7 +24,7 @@
             <input type="text" name="country" form="manufacturer" required>
         </td>
         <td>
-            <input type="submit" name="add" form="manufacturer" required>
+            <input type="submit" name="add" form="manufacturer" value="Send" required>
         </td>
     </tr>
     <table class="section__subtitle">
