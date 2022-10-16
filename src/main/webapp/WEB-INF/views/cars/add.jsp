@@ -9,8 +9,8 @@
 </head>
 <body>
 <form method="post" id="car" action="${pageContext.request.contextPath}/cars/add"></form>
-<h1 class="table_dark">Add car:</h1>
-<table border="1" class="table_dark">
+<h1 class="section__title">Add car:</h1>
+<table class="table_dark">
     <tr>
         <th>Model</th>
         <th>Manufacturer ID</th>
@@ -27,7 +27,7 @@
             <input type="submit" name="add" form="car">
         </td>
     </tr>
-    <table class="table_dark">
+    <table class="section__subtitle">
         <tr><td><a href="${pageContext.request.contextPath}/index">Return to Main Menu</a></td></tr>
     </table>
 </table>

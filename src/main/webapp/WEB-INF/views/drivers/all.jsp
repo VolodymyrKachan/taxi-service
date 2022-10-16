@@ -8,8 +8,8 @@
     <title>All drivers</title>
 </head>
 <body>
-<h1 class="table_dark">All drivers:</h1>
-<table border="1" class="table_dark">
+<h1 class="section__title">All drivers:</h1>
+<table class="table_dark">
     <tr>
         <th>ID</th>
         <th>Name</th>
@@ -32,7 +32,7 @@
             </td>
         </tr>
     </c:forEach>
-    <table class="table_dark">
+    <table class="section__subtitle">
         <tr><td><a href="${pageContext.request.contextPath}/index">Return to Main Menu</a></td></tr>
     </table>
 </table>

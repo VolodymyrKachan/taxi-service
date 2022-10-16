@@ -3,6 +3,13 @@ body{
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 }
 
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+
 .section__title{
     color: #7C5FAB;
     font-size: 40px;
@@ -10,12 +17,34 @@ body{
     text-align: center;
     border-collapse: collapse;
     margin: 0 auto;
-    padding-top: 300px;
-    padding-bottom: 40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 
+.section__subtitle{
+    padding-top: 10px;
+    color: #7C5FAB;
+    font-size: 20px;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding-top: 10px;
+}
 
+.section__subtitle a{
+    text-decoration: none;
+    list-style: none;
+    color: #7C5FAB;
+    font-size: 20px;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.section__subtitle:hover a{
+    font-size: 22px;
+}
 
 
 
@@ -30,6 +59,8 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     gap:0px;
+    padding-top: 300px;
+    padding-bottom: 300px;
 }
 
 
@@ -110,6 +141,7 @@ body{
     font-size: 25px;
     cursor:pointer;
     margin-bottom: 15px;
+    border-radius: 15px;
 }
 
 .button:hover{
@@ -144,8 +176,14 @@ body{
 /*MAIN MENU*/
 
 
+.section__main{
+    padding-bottom: 300px;
+}
+
+
 .main__menu-table{
     width: 70%;
+    margin-bottom: 300px;
 
     display: flex;
     flex-direction: column;
@@ -159,12 +197,35 @@ body{
     border-collapse: collapse;
     background: #FEF4AB;
     margin: 0 auto;
-
 }
 
-main__menu-tbody{
+
+.main__menu-table tbody{
     display: block;
     width: 100%;
+    text-align: center;
+}
+
+.main__menu-table tr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main__menu-table td{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid orange;
+    text-align: center;
 }
 
 .main__menu-item{
@@ -173,19 +234,24 @@ main__menu-tbody{
     text-align: center;
     list-style: none;
     text-decoration: none;
+    font-size: 25px;
 }
 
-.main__menu-border{
-    display: block;
-    width: 100%;
-    border-bottom: 1px solid orange;
+.main__menu-table tr:last-child td {
+    border-bottom: none;
 }
+
+
+.main__menu-item:hover{
+    font-size: 27px;
+}
+
+
 
 
 /*---------------------------------------------------------------------------*/
 
 .table_dark {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     width: 70%;
     color: #7C5FAB;
     font-size: 40px;
@@ -193,17 +259,18 @@ main__menu-tbody{
     border-collapse: collapse;
     background: #FEF4AB;
     margin: auto;
+    margin-bottom: 10px;
 }
 .table_dark th {
     color: #7C5FAB;
-    border-bottom: 1px solid #98E2CA;
+    border-bottom: 1px solid rgb(128, 128, 128);
     padding: 12px 17px;
     font-size: 14px;
 }
 .table_dark td {
     color: #7C5FAB;
-    border-bottom: 1px solid #98E2CA;
-    border-right: 1px solid #98E2CA;
+    border-bottom: 1px solid rgb(128, 128, 128);
+    border-right: 1px solid rgb(128, 128, 128);
     padding: 7px 17px;
     font-size: 14px;
 }
@@ -216,3 +283,6 @@ main__menu-tbody{
 .table_dark tr:hover td {
     text-decoration: underline;
 }
+
+
+
