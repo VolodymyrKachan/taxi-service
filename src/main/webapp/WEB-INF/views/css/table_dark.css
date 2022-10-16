@@ -1,3 +1,189 @@
+body{
+    background-color: rgba(204, 204, 204, 0.68);
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+
+.section__title{
+    color: #7C5FAB;
+    font-size: 40px;
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding-top: 300px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+/*LOGIN*/
+
+.section__login {
+    width: 100%;
+    color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:0px;
+}
+
+
+.logo__picture{
+    width: 400px;
+    outline: 1px solid black;
+}
+
+.login__picture{
+    width: 700px;
+    height: 419px;
+}
+
+.login__registration{
+    width: 40%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid yellow;
+    background-color: #ffffb4;
+    color: black;
+
+}
+
+.login__registration:hover{
+    border: 2px solid orange;
+}
+
+.login__title{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.error{
+    color:red;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+.table{
+    width: 80%;
+}
+
+.form__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+
+.form__input{
+    height: 40px;
+    background-color: white;
+    color: black;
+    width: 75%;
+    font-size: 25px;
+}
+
+
+.form__item:last-child{
+    margin-bottom: 30px;
+}
+
+
+.button{
+    display: block;
+    height: 40px;
+    width: 130px;
+    background-color: orange;
+    color: black;
+    margin: 0 auto;
+    font-size: 25px;
+    cursor:pointer;
+    margin-bottom: 15px;
+}
+
+.button:hover{
+    background-color: yellow;
+    border: 1px solid orange;
+    font-size: 26px;
+}
+
+.form__r{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.form__registration{
+    text-decoration: none;
+    list-style: none;
+
+    height: 40px;
+    width: 130px;
+
+    color: black;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.form__registration:hover {
+    font-size: 26px;
+}
+
+
+/*MAIN MENU*/
+
+
+.main__menu-table{
+    width: 70%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+
+    color: #7C5FAB;
+    font-size: 25px;
+    text-align: center;
+    border-collapse: collapse;
+    background: #FEF4AB;
+    margin: 0 auto;
+
+}
+
+main__menu-tbody{
+    display: block;
+    width: 100%;
+}
+
+.main__menu-item{
+    display: block;
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main__menu-border{
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid orange;
+}
+
+
+/*---------------------------------------------------------------------------*/
+
 .table_dark {
     font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
     width: 70%;
