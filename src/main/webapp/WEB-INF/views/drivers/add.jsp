@@ -9,13 +9,14 @@
 </head>
 <body>
 <form method="post" id="driver" action="${pageContext.request.contextPath}/drivers/add"></form>
-<h1 class="table_dark">Add driver:</h1>
-<table border="1" class="table_dark">
+<h1 class="section__title">Add driver:</h1>
+<table class="table_dark">
     <tr>
         <th>Name</th>
         <th>License number</th>
         <th>Login</th>
         <th>Password</th>
+        <th>Add</th>
     </tr>
     <tr>
         <td>
@@ -31,10 +32,10 @@
             <input type="password" name="password" form="driver" required>
         </td>
         <td>
-            <input type="submit" name="add" form="driver">
+           <input type="submit" name="add" form="driver" value="Send">
         </td>
     </tr>
-    <table class="table_dark">
+    <table class="section__subtitle">
         <tr><td><a href="${pageContext.request.contextPath}/index">Return to Main Menu</a></td></tr>
     </table>
 </table>
