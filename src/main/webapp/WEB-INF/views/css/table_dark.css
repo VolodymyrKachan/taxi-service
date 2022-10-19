@@ -46,9 +46,6 @@ a{
     font-size: 22px;
 }
 
-
-
-
 /*LOGIN*/
 
 .section__login {
@@ -246,9 +243,6 @@ a{
     font-size: 27px;
 }
 
-
-
-
 /*---------------------------------------------------------------------------*/
 
 .table_dark {
@@ -283,6 +277,3 @@ a{
 .table_dark tr:hover td {
     text-decoration: underline;
 }
-
-
-
